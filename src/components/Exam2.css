@@ -1,0 +1,155 @@
+.exam-container2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 230px;
+  margin-left: 230px;
+  margin-top: 50px;
+  flex-direction: row-reverse;
+}
+
+.product2 {
+  display: flex;
+  justify-content: flex-start; /* Đảm bảo mô tả và hình ảnh canh trái */
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.product-image2 {
+  width: 200px;
+  height: auto;
+  border-radius: 100px / 100px;
+  margin-left: 20px;
+  order: 2;
+}
+
+.product-info2 {
+  flex-direction: column;
+  margin-top: 30px;
+  text-align: left;
+  max-width: 70%; /* Tăng chiều rộng cho mô tả */
+  order: 1;
+  margin-right: 20px; /* Tạo khoảng cách giữa mô tả và hình ảnh */
+}
+
+.product-name2, .product-code2, .product-category2, .product-price2 {
+  white-space: nowrap; /* Tránh chữ xuống dòng */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Nếu quá dài, thêm dấu "..." */
+}
+
+.product-name2 {
+  color: #000000;
+  font-size: 17px;
+  margin-bottom: -15px;
+}
+
+.product-code2 {
+  color: #000000;
+  font-size: 17px;
+}
+
+.product-category2 {
+  color: #757575;
+}
+
+.product-price2 {
+  color: #000000;
+  font-size: 25px;
+}
+
+.products-list2 {
+  margin-top: 100px;
+}
+
+.buttons2 {
+  display: flex;
+  align-items: center;
+}
+
+.buy-button2 {
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #007bff;
+  border-radius: 50px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s, color 0.3s;
+  color: #007bff;
+}
+
+.wishlist-button2 {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.heart-icon2 {
+  width: 27px;
+  height: 36px;
+  stroke: #007bff;
+  stroke-width: 20;
+  fill: transparent;
+  transition: fill 0.3s ease, stroke 0.3s ease;
+  margin: 0 5px;
+  transform: scale(1.2, 1);
+}
+
+.favorited2 {
+  fill: red;
+  stroke: red;
+}
+
+.not-favorited2 {
+  stroke: #007bff;
+}
+
+.collection-banner2 {
+  position: relative;
+  margin-left: -100px;
+  width: 40%;
+}
+
+.collection-button2 {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  margin-top: 170px;
+  margin-right: -390px;
+}
+
+.collection-button-circle2 {
+  width: 50px;
+  height: 50px;
+  background-color: #00aaff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.collection-button-circle2::before {
+  content: '➚';
+  color: white;
+  font-size: 14px;
+}
+
+.collection-button-text2 {
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.banner-image2 {
+  width: 160%;
+  height: auto;
+}

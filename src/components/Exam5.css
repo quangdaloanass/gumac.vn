@@ -1,0 +1,171 @@
+.exam5-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-right: 520px;
+    margin-left: 250px;
+    margin-top: 70px;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .product-category h3,
+  .suggested-size h4 {
+    margin-bottom: 10px;
+  }
+  
+  .category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .category-buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    width: 90px;
+  }
+  
+  .category-buttons img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  .category-buttons .active {
+    background-color: #00aaff;
+    color: white;
+  }
+  
+  .measurement .height, .measurement .weight {
+    margin-bottom: 20px; /* Khoảng cách giữa các mục */
+  }
+  
+  .measurement .label-and-value {
+    display: flex;
+    justify-content: space-between; /* Căn nhãn và giá trị ở 2 đầu */
+    margin-bottom: 5px; /* Khoảng cách giữa dòng nhãn và thanh trượt */
+  }
+  
+  .measurement label {
+    font-weight: bold;
+  }
+  
+  .measurement input[type='range'] {
+    width: 100%; /* Thanh trượt chiếm toàn bộ chiều rộng */
+  }
+  
+  .search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00aaff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+
+  .category-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 mục mỗi hàng */
+    gap: 20px; /* Tăng khoảng cách giữa các nút */
+  }
+  
+  .category-buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Tăng kích thước phần padding */
+    width: 130px; /* Tăng chiều rộng */
+    height: 80px; /* Tăng chiều cao */
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 15px; /* Tăng kích thước chữ */
+    border-radius: 10px;
+  }
+  
+  .category-buttons img {
+    width: 30px; /* Tăng kích thước ảnh */
+    height: 30px;
+    margin-bottom: 5px; /* Tăng khoảng cách giữa ảnh và chữ */
+  }
+  
+
+  .suggested-size .size-buttons button {
+    padding: 10px 15px; /* Tăng kích thước khung của nút */
+    font-size: 18px; /* Tăng kích thước chữ */
+    margin: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 10px; /* Bo tròn góc khung */
+    width: 60px; /* Tăng chiều rộng của khung */
+    height: 37px; /* Tăng chiều cao của khung */
+  }
+  
+  .suggested-size .size-buttons button.active {
+    background-color: #00aaff;
+    color: white;
+  }
+  
+  .suggested-size h4 {
+    font-size: 16px; /* Tăng kích thước chữ của tiêu đề "SIZE GỢI Ý" */
+    margin-bottom: 10px;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px; /* Khoảng cách dưới */
+    margin-top: 50px;
+  }
+  
+  .arrow-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #00aaff; /* Viền tròn màu xanh */
+    border-radius: 50%; /* Tạo hình tròn */
+    cursor: pointer;
+    background-color: #00aaff;
+    color: #ffffff;
+    font-size: 20px; /* Kích thước mũi tên */
+    transition: background-color 0.3s ease;
+  }
+  
+  .arrow-button:hover {
+    background-color: #00aaff; /* Đổi màu nền khi hover */
+    color: white; /* Đổi màu mũi tên khi hover */
+  }
+  
+  .search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px; /* Kích thước chữ */
+    transition: background-color 0.3s ease;
+  }
+ 
+  

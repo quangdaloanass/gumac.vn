@@ -1,0 +1,24 @@
+.container-layout {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 270px;
+}
+
+.left-image-layout img {
+    width: 110%;
+    height: 87.2%;
+    border-radius: 20px; /* Bo tròn góc hình bên trái */
+}
+
+.right-images-layout {
+    display: flex;
+    flex-direction: column; /* Đặt thành column để các ảnh nằm dọc */
+    margin-left: 80px;
+}
+
+.right-images-layout img {
+    width: 65%;
+    height: auto;
+    margin-bottom: 20px; /* Khoảng cách giữa hai ảnh */
+    border-radius: 20px; /* Bo tròn góc hình bên phải */
+}

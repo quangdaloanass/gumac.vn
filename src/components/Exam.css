@@ -1,0 +1,139 @@
+.exam-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 230px;
+  margin-left: 230px;
+  margin-top: 50px;
+}
+
+.products-list-1 {
+  width: 50%;
+}
+
+.product-1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.product-image-2 {
+  width: 200px;
+  height: auto;
+  border-radius: 100px / 100px;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.product-name {
+  color: #000000;
+  font-size: 17px; /* Kích thước chữ */
+  margin-bottom: -15px;
+}
+
+.product-code{
+  color: #000000;
+  font-size: 17px; /* Kích thước chữ */
+}
+
+.product-category{
+  color: #757575;
+
+}
+
+.product-price {
+  color: #000000;
+  font-size: 25px; /* Kích thước chữ */
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buy-button {
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #007bff; /* Độ dày viền */
+  border-radius: 50px; /* Bo góc */
+  padding: 10px 15px; /* Tăng kích thước padding để khung lớn hơn */
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 15px; /* Kích thước chữ */
+  transition: background-color 0.3s, color 0.3s;
+  color: #007bff;
+}
+
+.wishlist-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.heart-icon {
+  width: 27px; /* Chiều rộng của icon */
+  height: 36px; /* Chiều cao của icon */
+  stroke: #007bff; /* Viền xanh */
+  stroke-width: 20; /* Độ rộng của viền */
+  fill: transparent; /* Bên trong trong suốt */
+  transition: fill 0.3s ease, stroke 0.3s ease;
+  margin: 0 5px; /* Thêm khoảng cách xung quanh icon */
+  transform: scale(1.2, 1); /* Tăng kích thước theo chiều ngang */
+}
+
+.favorited {
+  fill: red; /* Khi click vào, bên trong sẽ thành màu đỏ */
+  stroke: red; /* Viền đỏ khi đã yêu thích */
+}
+
+.not-favorited {
+  stroke: #007bff; /* Viền xanh lúc đầu */
+}
+
+
+.collection-banner {
+  position: relative;
+  width: 40%;
+  margin-top: 100px;
+}
+
+.collection-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: -200px;
+  margin-bottom: -200px;
+}
+
+.collection-button-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #00aaff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.collection-button-circle::before {
+  content: '➚';
+  color: white;
+  font-size: 14px;
+}
+
+.collection-button-text {
+  color: black;
+  font-weight: bold;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}

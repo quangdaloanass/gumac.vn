@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+
+.hotline {
+  background-color: #00aaff;
+  padding: 15px;
+  flex-grow: 0.5;
+  text-align: center;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  margin-right: 250px;
+  gap: 20px;
+}
+
+.header-links span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-links img {
+  width: 20px; /* Điều chỉnh kích thước icon */
+  height: 20px;
+  margin-right: 5px; /* Khoảng cách giữa icon và văn bản */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px; /* Bo góc cho khung ngoài */
+  padding: 5px 10px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}

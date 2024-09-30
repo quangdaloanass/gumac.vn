@@ -1,0 +1,54 @@
+.voucher-container {
+    display: flex;
+    justify-content: center; /* Căn giữa các voucher */
+    gap: 20px; /* Khoảng cách giữa 2 voucher */
+    margin: 20px 0; /* Khoảng cách trên dưới */
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    max-width: 450px; /* Giới hạn kích thước của mỗi hình */
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+  
+.text-overlay h1 {
+    font-size: 20px;
+    margin: 0;
+}
+  
+.text-overlay p {
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}
+
+/* Style cho nút */
+.claim-button {
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Màu nền đỏ */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.claim-button:hover {
+    background-color: #e60000; /* Đổi màu khi hover */
+}

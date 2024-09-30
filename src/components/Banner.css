@@ -1,0 +1,45 @@
+.banner {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.controls button {
+  background-color: transparent; /* Khung ngoài trong suốt */
+  color: white; /* Màu trắng cho dấu chấm */
+  border: 2px solid transparent; /* Khung ngoài mặc định trong suốt */
+  border-radius: 50%; /* Khung ngoài tròn */
+  width: 24px; /* Điều chỉnh kích thước dấu chấm và viền */
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px; /* Kích thước dấu chấm */
+  outline: none;
+}
+
+.controls button:not(.active) {
+  border: 2px solid transparent; /* Bỏ viền cho các nút không hoạt động */
+}
+
+.controls .active {
+  border: 2px solid white; /* Viền trắng khi nút hoạt động */
+  background-color: transparent; /* Khung ngoài trong suốt */
+  border-radius: 50%; /* Viền phải tròn như dấu chấm */
+}

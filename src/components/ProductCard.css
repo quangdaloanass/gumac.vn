@@ -1,0 +1,39 @@
+/* Container cho các sản phẩm */
+.product-container {
+    display: flex;
+    flex-wrap: wrap; /* Đảm bảo các thẻ sẽ tự xuống dòng nếu không đủ chỗ */
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+    padding: 20px;
+    margin-left: 203px;
+}
+
+/* Kiểu cho từng thẻ sản phẩm */
+.product-card {
+    width: 327px; /* Đặt kích thước sản phẩm */
+    margin: 10px;
+    border: 1px solid #ddd;
+    overflow: hidden; /* Ngăn hình ảnh tràn ra ngoài */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+
+.product-image {
+    width: 100%;
+    height: auto; /* Tự động điều chỉnh chiều cao dựa trên tỉ lệ ảnh */
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng phóng to */
+}
+
+.product-info {
+    padding: 10px;
+}
+
+/* Điều chỉnh riêng cho hình 1 và 3 */
+.product-card:nth-child(1),
+.product-card:nth-child(3) {
+    margin-top: 50px; /* Điều chỉnh khoảng cách cho hình 1 và 3 */
+    margin-bottom: -30px;
+}

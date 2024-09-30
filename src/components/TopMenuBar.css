@@ -1,0 +1,56 @@
+.top-menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-links {
+  display: flex;
+  margin-left: 200px;
+  gap: 50px; /* Điều chỉnh khoảng cách giữa các mục */
+  list-style: none;
+}
+
+.menu-links li {
+  display: flex;
+  align-items: center;
+}
+
+.menu-links li img {
+  width: 180px; /* Kích thước logo */
+  height: auto;
+  margin-right: 50px; /* Khoảng cách giữa logo và chữ */
+}
+
+.menu-links li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: red; /* Màu mặc định cho các mục khác */
+}
+
+/* Chỉnh màu riêng cho "BỘ SƯU TẬP" và "THỜI TRANG" */
+.menu-links li:nth-child(3) a,
+.menu-links li:nth-child(4) a {
+    color: black; /* Màu đen cho BỘ SƯU TẬP và THỜI TRANG */
+}
+
+.menu-icons a img {
+  width:18px;  /* Kích thước của biểu tượng */
+  height: auto; /* Giữ nguyên tỷ lệ hình ảnh */
+  display: block; /* Đảm bảo hình ảnh hiển thị đúng trong thẻ a */
+  height: 50px;  /* Chiều cao của biểu tượng giỏ hàng, có thể điều chỉnh */
+
+}
+
+.menu-icons {
+  display: flex;
+  margin-right: 280px;
+  gap: 20px;  /* Khoảng cách giữa các biểu tượng */
+}
+
+.menu-icons a {
+  display: inline-block; /* Giữ các biểu tượng nằm cạnh nhau */
+}

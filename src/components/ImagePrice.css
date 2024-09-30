@@ -1,0 +1,14 @@
+.image-banner-container {
+    display: flex;
+    justify-content: center; /* Căn giữa các hình ảnh */
+    gap: 0px; /* Khoảng cách giữa các hình ảnh */
+    margin: 20px 50px; /* Khoảng cách từ cạnh ngoài của trang vào container */
+}
+
+.image-banner {
+    width: 28%; /* Giới hạn chiều rộng của mỗi hình, bạn có thể thay đổi giá trị này */
+    height: auto;
+    margin-right: -70px; /* Khoảng cách âm giữa các hình ảnh */
+    border-radius: 0px; /* Bo tròn các góc nếu cần */
+    /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho hình */
+}
